@@ -1,11 +1,17 @@
 {
   "hosting": {
     "site": "casadeibambini-7805e",
-    "public": "dist/casa-dei-bambini",
+    "public": "./dist/casa-dei-bambini",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "regrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
