@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "dist",
+    "site": "casadeibambini-7805e",
+    "public": "dist/casa-dei-bambini",
     "ignore": [
       "firebase.json",
       "**/.*",
