@@ -1,0 +1,13 @@
+.imagenMenu {
+    position: absolute;
+    z-index: 2;
+    height: 5.8em;
+}
+
+.bg-img {
+    z-index: -1;
+    background-image: url('/./assets/images/texturaHormigon.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    height: 6em;
+}
