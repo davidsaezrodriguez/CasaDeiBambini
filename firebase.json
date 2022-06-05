@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/casa-dei-bambini",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
