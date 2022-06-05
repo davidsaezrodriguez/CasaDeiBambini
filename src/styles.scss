@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: RuasMediumGrunge;
+    src: url(assets/fonts/RuasMediumGrunge.otf) format("opentype");
+}
+
+*{
+    font-family: 'RuasMediumGrunge';
+}
