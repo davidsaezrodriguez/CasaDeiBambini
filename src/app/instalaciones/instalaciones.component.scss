@@ -1,0 +1,28 @@
+nav{
+    background-color: gray !important;
+    opacity: 75%;
+}
+a{
+    color: white !important;
+    font-size: 1.7em;
+}
+li{
+    margin-left: 3em;
+    cursor: pointer;
+}
+li:hover{
+   text-decoration: underline;
+}
+.active{
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    // nav en version movil donde tenemos transicion al dar al boton
+    nav {
+        height: 4.5em;
+        width: 100%;
+        padding: 1em;
+        transition: 0.5s;
+        z-index: 100;
+    }
+}

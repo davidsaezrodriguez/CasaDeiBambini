@@ -1,22 +1,56 @@
 .inicio {
     background-image: url('/./assets/images/niñosfondo.jpg');
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 66em;
 }
+.texto{
+    color: white;
+    width: 15em;
+    z-index: 1;
+    font-size: 2em;
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+@media (max-width: 800px) {
+    .texto {
+        width: 100%;
+       margin: 1em auto auto auto;
+    }
+  }
+
+
+
+
+
+
 nav{
     background-color: gray !important;
     opacity: 75%;
-    
 }
 a{
     color: white !important;
     font-size: 1.7em;
 }
-.texto{
-    color: white;
-    width: 15em;
-    font-size: 2em;
-    margin-top: 5em;
+li{
     margin-left: 3em;
+    cursor: pointer;
+}
+li:hover{
+   text-decoration: underline;
+}
+.active{
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    // nav en version movil donde tenemos transicion al dar al boton
+    nav {
+        height: 4.5em;
+        width: 100%;
+        padding: 1em;
+        transition: 0.5s;
+        z-index: 100;
+    }
 }

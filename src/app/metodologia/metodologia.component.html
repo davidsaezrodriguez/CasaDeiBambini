@@ -1,1 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <button class="navbar-toggler botoncolapsar collapsed" type="button" (click)="expandirNav()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbarDiv" id="navbarSupportedContent">
+        <ul class="navbar-nav" (click)="expandirNav()">
+            <div *ngFor="let item of itemsMenu">
+                <li class="nav-item active" [routerLink]="[item.href]" [routerLinkActive]="'active'">
+                    <a class="nav-link">{{item.title}}</a>
+                </li>
+            </div>
+        </ul>
+
+    </div>
+</nav>
 <p>metodologia works!</p>
