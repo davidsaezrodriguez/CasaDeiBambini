@@ -1,50 +1,79 @@
 .inicio {
-    background-image: url('/./assets/images/niñosfondo.jpg');
-    background-position: center;
+    background-image: url('/./assets/images/fondoinicio.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 66em;
+    height: calc(100vh - 6.8em);
 }
-.texto{
+
+.texto {
     color: white;
-    width: 15em;
+    width: 16em;
     z-index: 1;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 5em;
-    margin-left: 3em;
+    margin-left: 1em;
 }
-
+.textoNombre{
+    color: white;
+    width: 28em;
+    z-index: 1;
+    font-size: 1.7em;
+    margin-left: 1em;
+    text-align: right;
+}
 @media (max-width: 800px) {
-    .texto {
-        width: 100%;
-       margin: 1em auto auto auto;
+    .fondo{
+        background-color: grey;
+        opacity: 50%;
     }
-  }
-
-
-
-
-
-
-nav{
-    background-color: gray !important;
-    opacity: 75%;
+    .texto {
+        font-size: 2.1em;
+        width: 100%;
+        margin: 3em 0 0 0;
+        padding: 1em 1em 0 1em;
+    }
+    .textoNombre {
+        font-size: 1.3em;
+        width: 100%;
+        margin: 0;
+        padding: 1em 2em 1em 1em;
+    }
+    
 }
-a{
-    color: white !important;
+
+
+
+
+
+
+nav {
+    background-color: rgba(255, 255, 255,0.5) !important;
+    height: 4em;
+}
+
+a {
+    color: black !important;
+    font-family: 'RuasMediumGrunge' !important;
+
     font-size: 1.7em;
 }
-li{
+
+li {
     margin-left: 3em;
     cursor: pointer;
 }
-li:hover{
-   text-decoration: underline;
+
+li:hover {
+    text-decoration: underline;
 }
-.active{
+
+.active {
     font-weight: bold;
 }
+
 @media only screen and (max-width: 768px) {
+
     // nav en version movil donde tenemos transicion al dar al boton
     nav {
         height: 4.5em;

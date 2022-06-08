@@ -1,9 +1,15 @@
-nav{
-    background-color: gray !important;
+nav {
+    background-color: #B9BFBF !important;
     opacity: 75%;
+    background-image: url('/./assets/images/texturaHormigon.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    height: 4em;
 }
-a{
+
+a {
     color: white !important;
+    font-family: 'RuasMediumGrunge' !important;
     font-size: 1.7em;
 }
 li{

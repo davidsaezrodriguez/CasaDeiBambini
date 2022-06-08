@@ -2,7 +2,13 @@
     font-family: RuasMediumGrunge;
     src: url(assets/fonts/RuasMediumGrunge.otf) format("opentype");
 }
+@font-face {
+    font-family: CaviarDreams;
+    src: url(assets/fonts/CaviarDreams.ttf) format("opentype");
+}
+
+@import '~material-icons/iconfont/material-icons.css';
 
 *{
-    font-family: 'RuasMediumGrunge';
+    font-family: CaviarDreams; 
 }

@@ -1,22 +1,33 @@
-nav{
-    background-color: gray !important;
+nav {
+    background-color: #B9BFBF !important;
     opacity: 75%;
+    background-image: url('/./assets/images/texturaHormigon.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    height: 4em;
 }
-a{
+
+a {
     color: white !important;
+    font-family: 'RuasMediumGrunge' !important;
     font-size: 1.7em;
 }
-li{
+
+li {
     margin-left: 3em;
     cursor: pointer;
 }
-li:hover{
-   text-decoration: underline;
+
+li:hover {
+    text-decoration: underline;
 }
-.active{
+
+.active {
     font-weight: bold;
 }
+
 @media only screen and (max-width: 768px) {
+
     // nav en version movil donde tenemos transicion al dar al boton
     nav {
         height: 4.5em;
