@@ -34,7 +34,7 @@ export class InicioComponent implements OnInit {
         $('.botoncolapsar').removeClass('collapsed');
         this.navExpandida = true;
       } else {
-        $('#navbar').height(45);
+        $('#navbar').height(30);
 
         $('.navbarDiv').addClass('collapse');
         $('.navbarDiv').removeClass('show');

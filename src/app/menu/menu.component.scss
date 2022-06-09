@@ -13,3 +13,15 @@
     background-repeat: repeat;
     height: 7.5em;
 }
+
+@media only screen and (max-width: 768px) {
+
+    // nav en version movil donde tenemos transicion al dar al boton
+    .bg-img{
+        height: 4em;
+    }
+    .imagenMenu{
+        margin-top: 0.2em;
+        height: 3.6em;
+    }
+}

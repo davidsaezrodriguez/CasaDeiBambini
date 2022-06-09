@@ -76,10 +76,13 @@ li:hover {
 
     // nav en version movil donde tenemos transicion al dar al boton
     nav {
-        height: 4.5em;
+        height: 3em;
         width: 100%;
-        padding: 1em;
+        padding: 0.2em 1em 1em 1em;
         transition: 0.5s;
         z-index: 100;
+    }
+    .inicio {
+        height: calc(100vh - 3.2em);
     }
 }
