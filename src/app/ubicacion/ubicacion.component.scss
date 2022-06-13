@@ -7,7 +7,7 @@ nav {
     height: 4em;
 }
 
-a {
+li a {
     color: white !important;
     font-family: 'RuasMediumGrunge' !important;
     font-size: 1.7em;
@@ -31,4 +31,29 @@ li:hover{
         transition: 0.5s;
         z-index: 100;
     }
+    img{
+        width: 22.5em !important;
+        padding-right: 5.4em !important;
+    }
+}
+
+
+.RuasMediumGrunge{
+    font-family: RuasMediumGrunge;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+.centerText{
+    text-align: center;
+    color: black !important;
+}
+img{
+    width: 40em;
+    margin-top: 1em;
+    padding-right: 10em;
+    margin-bottom: 1em;
+
+}
+.centro{
+    text-align: center;
 }
