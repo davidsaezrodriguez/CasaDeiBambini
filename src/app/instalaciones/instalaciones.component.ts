@@ -1,14 +1,41 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { PhotoService } from './photo.service';
+
 @Component({
   selector: 'app-instalaciones',
   templateUrl: './instalaciones.component.html',
   styleUrls: ['./instalaciones.component.scss'],
 })
 export class InstalacionesComponent implements OnInit {
-  constructor() {}
+  constructor(
+    private photoService : PhotoService
+  ) {}
 
-  ngOnInit(): void {}
+  images: any[] = [];
+
+  responsiveOptions:any[] = [
+      {
+          breakpoint: '1024px',
+          numVisible: 5
+      },
+      {
+          breakpoint: '768px',
+          numVisible: 3
+      },
+      {
+          breakpoint: '560px',
+          numVisible: 1
+      }
+  ];
+
+
+
+
+
+  ngOnInit(): void {
+    this.images = this.photoService.getImages();
+  }
   itemsMenu = [
     { title: 'I N I C I O', href: '/' },
     { title: 'I N S T A L A C I O N E S', href: '/instalaciones' },

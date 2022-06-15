@@ -8,6 +8,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { InstalacionesComponent } from './instalaciones/instalaciones.component';
 import { MetodologiaComponent } from './metodologia/metodologia.component';
 import { UbicacionComponent } from './ubicacion/ubicacion.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import {GalleriaModule} from 'primeng/galleria';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { UbicacionComponent } from './ubicacion/ubicacion.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    GalleriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
