@@ -2,14 +2,30 @@
     font-family: RuasMediumGrunge;
     src: url(assets/fonts/RuasMediumGrunge.otf) format("opentype");
 }
+
 @font-face {
     font-family: CaviarDreams;
     src: url(assets/fonts/CaviarDreams.ttf) format("opentype");
 }
 
-*{
-    font-family: CaviarDreams; 
+* {
+    font-family: CaviarDreams;
 }
-@import "../node_modules/primeng/resources/primeng.min.css";
-@import "../node_modules/primeng/resources/themes/md-dark-indigo/theme.css";
 
+
+
+@import "../node_modules/primeicons/primeicons.css";
+@import "../node_modules/primeng/resources/primeng.min.css";
+@import "../node_modules/primeng/resources/themes/nova/theme.css";
+
+
+.p-galleria .p-galleria-caption {
+    padding: 0em !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .p-galleria {
+        margin-top: 1em !important;
+    }
+}

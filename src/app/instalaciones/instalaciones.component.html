@@ -13,7 +13,7 @@
 
     </div>
 </nav>
-<p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '75em','margin':'1em auto 0 auto'}" [numVisible]="5"> 
+<p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [circular]=true [showThumbnailNavigators]=true [containerStyle]="{'max-width': '75em','margin':'4em auto 0 auto'}" [numVisible]="5"> 
     <ng-template pTemplate="item" let-item>
         <img [src]="item.previewImageSrc" style="width: 100%; display: block;" />
     </ng-template>
@@ -22,7 +22,7 @@
             <img [src]="item.thumbnailImageSrc" style="display: block; width: 10em;" />
         </div>
     </ng-template>
-    <ng-template pTemplate="caption" let-item >
-        <h4 style="margin-bottom: 0; color: #ffffff;">{{item.title}}</h4>
+    <ng-template pTemplate="caption" class="captionGalery" let-item [containerStyle]="{'padding':'0 !important'}" >
+            <h4 class="tituloImagen">{{item.title}}</h4>
     </ng-template>
 </p-galleria>
