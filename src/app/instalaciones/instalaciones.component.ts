@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 import { PhotoService } from './photo.service';
 
@@ -7,7 +7,7 @@ import { PhotoService } from './photo.service';
   templateUrl: './instalaciones.component.html',
   styleUrls: ['./instalaciones.component.scss'],
 })
-export class InstalacionesComponent implements OnInit {
+export class InstalacionesComponent implements OnInit,AfterViewInit{
   constructor(
     private photoService : PhotoService
   ) {}
@@ -30,7 +30,10 @@ export class InstalacionesComponent implements OnInit {
   ];
 
 
-
+  ngAfterViewInit():void{
+    $('.ng-star-inserted').attr('disabled', null)
+    $('.ng-star-inserted').addClass('test');
+  }
 
 
   ngOnInit(): void {
@@ -42,8 +45,8 @@ export class InstalacionesComponent implements OnInit {
     { title: 'M E T O D O L O G I A', href: '/metodologia' },
     { title: 'C O N T A C T O', href: '/contacto' },
   ];
-  // Funcion con la que expandimos y cerramos el navbar para desplegar las opciones en la version movil
 
+  // Funcion con la que expandimos y cerramos el navbar para desplegar las opciones en la version movil
   navExpandida = false; // Var para comprobar si la nav esta expandida o no
   expandirNav() {
     if (screen.width < 768) {
