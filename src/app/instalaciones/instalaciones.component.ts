@@ -7,7 +7,7 @@ import { PhotoService } from './photo.service';
   templateUrl: './instalaciones.component.html',
   styleUrls: ['./instalaciones.component.scss'],
 })
-export class InstalacionesComponent implements OnInit,AfterViewInit{
+export class InstalacionesComponent implements OnInit{
   constructor(
     private photoService : PhotoService
   ) {}
@@ -29,15 +29,8 @@ export class InstalacionesComponent implements OnInit,AfterViewInit{
       }
   ];
 
-
-  ngAfterViewInit():void{
-    $('.ng-star-inserted').attr('disabled', null)
-    $('.ng-star-inserted').addClass('test');
-  }
-
-
   ngOnInit(): void {
-    this.images = this.photoService.getImages();
+    this.images = this.photoService.getImagesInstalaciones();
   }
   itemsMenu = [
     { title: 'I N I C I O', href: '/' },

@@ -22,6 +22,10 @@ li:hover{
 .active{
     font-weight: bold;
 }
+.imagenesMetodologia{
+    width: 30em;
+    height: 17em;
+}
 @media only screen and (max-width: 768px) {
     // nav en version movil donde tenemos transicion al dar al boton
     nav {
@@ -30,5 +34,12 @@ li:hover{
         padding: 0.2em 1em 1em 1em;
         transition: 0.5s;
         z-index: 100;
+    }
+    .columnReverse{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .mt-5{
+        margin-top: 1.5em !important;
     }
 }

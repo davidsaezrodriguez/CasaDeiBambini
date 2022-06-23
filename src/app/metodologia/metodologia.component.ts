@@ -1,14 +1,45 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { PhotoService } from '../instalaciones/photo.service';
 @Component({
   selector: 'app-metodologia',
   templateUrl: './metodologia.component.html',
   styleUrls: ['./metodologia.component.scss'],
 })
 export class MetodologiaComponent implements OnInit {
-  constructor() {}
+  constructor(
+    private photoService : PhotoService
+  ) {}
 
-  ngOnInit(): void {}
+  imagesVidaPractica: any[] = [];
+  imagesSensorial: any[] = [];
+  imagesMatematicas: any[] = [];
+  imagesLenguaje: any[] = [];
+  imagesCultura: any[] = [];
+
+
+  responsiveOptions:any[] = [
+      {
+          breakpoint: '1024px',
+          numVisible: 5
+      },
+      {
+          breakpoint: '768px',
+          numVisible: 3
+      },
+      {
+          breakpoint: '560px',
+          numVisible: 1
+      }
+  ];
+
+  ngOnInit(): void {
+    this.imagesVidaPractica = this.photoService.getImagesVidaPractica();
+    this.imagesSensorial = this.photoService.getImagesSensorial();
+    this.imagesMatematicas = this.photoService.getImagesVidaMatematicas();
+    this.imagesLenguaje = this.photoService.getImagesVidaLenguaje();
+    this.imagesCultura = this.photoService.getImagesVidaCultura();
+  }
   itemsMenu = [
     { title: 'I N I C I O', href: '/' },
     { title: 'I N S T A L A C I O N E S', href: '/instalaciones' },

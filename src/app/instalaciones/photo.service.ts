@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class PhotoService {
   constructor() {}
 
-  getImages() {
+  getImagesInstalaciones() {
     return [
       {
         previewImageSrc: '/./assets/images/colchonetas.jpg',
@@ -32,6 +32,62 @@ export class PhotoService {
         alt: 'Patio',
         title: 'Patio',
       },
+    ];
+  }
+
+  getImagesVidaPractica() {
+    return [
+      {
+        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+      },
+      
+    ];
+  }
+  getImagesSensorial() {
+    return [
+      {
+        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+      },
+      
+    ];
+  }
+  getImagesVidaMatematicas() {
+    return [
+      {
+        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+      },
+      
+    ];
+  }
+  getImagesVidaLenguaje() {
+    return [
+      {
+        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+      },
+      
+    ];
+  }
+  getImagesVidaCultura() {
+    return [
+      {
+        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+      },
+      
     ];
   }
 }
