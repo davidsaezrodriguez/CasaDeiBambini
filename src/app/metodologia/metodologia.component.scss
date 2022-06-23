@@ -6,7 +6,9 @@ nav {
     background-repeat: repeat;
     height: 4em;
 }
-
+p{
+    text-align: justify;
+}
 a {
     color: white !important;
     font-family: 'RuasMediumGrunge' !important;
@@ -23,8 +25,7 @@ li:hover{
     font-weight: bold;
 }
 .imagenesMetodologia{
-    width: 30em;
-    height: 17em;
+    width: 100%;
 }
 @media only screen and (max-width: 768px) {
     // nav en version movil donde tenemos transicion al dar al boton
@@ -41,5 +42,9 @@ li:hover{
     }
     .mt-5{
         margin-top: 1.5em !important;
+    }
+    .imagenMovil{
+        padding-left: 0em !important;
+        padding-right: 0em !important;
     }
 }

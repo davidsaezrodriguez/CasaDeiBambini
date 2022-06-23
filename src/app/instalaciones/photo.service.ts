@@ -43,6 +43,18 @@ export class PhotoService {
       {
         previewImageSrc: '/./assets/images/vidapractica2.jpg',
       },
+      {
+        previewImageSrc: '/./assets/images/vidapractica3.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica4.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica5.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/vidapractica6.jpg',
+      },
       
     ];
   }
