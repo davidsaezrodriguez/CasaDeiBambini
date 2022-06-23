@@ -14,7 +14,8 @@
     margin-top: 2em;
     margin-left: 1em;
 }
-.textoNombre{
+
+.textoNombre {
     color: white;
     width: 28em;
     z-index: 1;
@@ -22,24 +23,27 @@
     margin-left: 1em;
     text-align: right;
 }
+
 @media (max-width: 800px) {
-    .fondo{
+    .fondo {
         background-color: grey;
         opacity: 50%;
     }
+
     .texto {
         font-size: 2em;
         width: 100%;
         margin: 2em 0 0 0;
         padding: 1em 1em 0 1em;
     }
+
     .textoNombre {
         font-size: 1.3em;
         width: 100%;
         margin: 0;
         padding: 1em 2em 1em 1em;
     }
-    
+
 }
 
 
@@ -48,7 +52,7 @@
 
 
 nav {
-    background-color: rgba(255, 255, 255,0.5) !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
     height: 4em;
 }
 
@@ -82,7 +86,9 @@ li:hover {
         transition: 0.5s;
         z-index: 100;
     }
+
     .inicio {
         height: calc(100vh - 3.2em);
     }
 }
+

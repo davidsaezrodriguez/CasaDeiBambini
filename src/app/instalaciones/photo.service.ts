@@ -38,22 +38,19 @@ export class PhotoService {
   getImagesVidaPractica() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+        previewImageSrc: '/./assets/images/vidapractic2.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+        previewImageSrc: '/./assets/images/vidapractic3.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica3.jpg',
+        previewImageSrc: '/./assets/images/vidapractic4.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica4.jpg',
+        previewImageSrc: '/./assets/images/vidapractic5.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica5.jpg',
-      },
-      {
-        previewImageSrc: '/./assets/images/vidapractica6.jpg',
+        previewImageSrc: '/./assets/images/vidapractic6.jpg',
       },
       
     ];
@@ -61,10 +58,10 @@ export class PhotoService {
   getImagesSensorial() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+        previewImageSrc: '/./assets/images/vidapractic4.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+        previewImageSrc: '/./assets/images/vidapractic5.jpg',
       },
       
     ];
@@ -72,10 +69,10 @@ export class PhotoService {
   getImagesVidaMatematicas() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+        previewImageSrc: '/./assets/images/vidapractic2.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+        previewImageSrc: '/./assets/images/vidapractic3.jpg',
       },
       
     ];
@@ -83,10 +80,10 @@ export class PhotoService {
   getImagesVidaLenguaje() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+        previewImageSrc: '/./assets/images/vidapractic5.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+        previewImageSrc: '/./assets/images/vidapractic6.jpg',
       },
       
     ];
@@ -94,10 +91,10 @@ export class PhotoService {
   getImagesVidaCultura() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractica1.jpg',
+        previewImageSrc: '/./assets/images/vidapractic2.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractica2.jpg',
+        previewImageSrc: '/./assets/images/vidapractic4.jpg',
       },
       
     ];
