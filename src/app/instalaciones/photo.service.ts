@@ -9,28 +9,10 @@ export class PhotoService {
   getImagesInstalaciones() {
     return [
       {
-        previewImageSrc: '/./assets/images/colchonetas.jpg',
-        thumbnailImageSrc: '/./assets/images/colchonetas.jpg',
-        alt: 'Colchonetas',
-        title: 'Zona de dormir',
-      },
-      {
-        previewImageSrc: '/./assets/images/interior.jpg',
-        thumbnailImageSrc: '/./assets/images/interior.jpg',
-        alt: 'Interior',
-        title: 'Interior',
-      },
-      {
-        previewImageSrc: '/./assets/images/pared.png',
-        thumbnailImageSrc: '/./assets/images/pared.png',
-        alt: 'Pared descripcion',
-        title: 'Pared',
-      },
-      {
-        previewImageSrc: '/./assets/images/patio.png',
-        thumbnailImageSrc: '/./assets/images/patio.png',
-        alt: 'Patio',
-        title: 'Patio',
+        previewImageSrc: '/./assets/images/entrada.jpg',
+        thumbnailImageSrc: '/./assets/images/entrada.jpg',
+        alt: 'Entrada',
+        title: 'Entrada',
       },
       {
         previewImageSrc: '/./assets/images/interior_area_lenguaje_cultura_matemtaicas.jpg',
@@ -45,8 +27,8 @@ export class PhotoService {
         title: 'Interior area de lenguaje y vida practica',
       },
       {
-        previewImageSrc: '/./assets/images/interior_area_sensorial_despacho.jpg',
-        thumbnailImageSrc: '/./assets/images/interior_area_sensorial_despacho.jpg',
+        previewImageSrc: '/./assets/images/interior_area_sensoria_despacho.jpg',
+        thumbnailImageSrc: '/./assets/images/interior_area_sensoria_despacho.jpg',
         alt: 'Interior area sensorial y despacho',
         title: 'Interior area sensorial y despacho',
       },
@@ -62,11 +44,12 @@ export class PhotoService {
         alt: 'Zona de dormir',
         title: 'Zona de dormir',
       },
+      
       {
-        previewImageSrc: '/./assets/images/entrada.jpg',
-        thumbnailImageSrc: '/./assets/images/entrada.jpg',
-        alt: 'Entrada',
-        title: 'Entrada',
+        previewImageSrc: '/./assets/images/patio.png',
+        thumbnailImageSrc: '/./assets/images/patio.png',
+        alt: 'Patio',
+        title: 'Patio',
       },
     ];
   }
