@@ -8,6 +8,13 @@ export class PhotoService {
 
   getImagesInstalaciones() {
     return [
+      
+      {
+        previewImageSrc: '/./assets/images/fachadaprincipal.jpg',
+        thumbnailImageSrc: '/./assets/images/fachadaprincipal.jpg',
+        alt: 'Fachada',
+        title: 'Fachada',
+      },
       {
         previewImageSrc: '/./assets/images/entrada.jpg',
         thumbnailImageSrc: '/./assets/images/entrada.jpg',
