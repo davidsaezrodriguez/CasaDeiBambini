@@ -19,7 +19,7 @@ export class PhotoService {
         previewImageSrc: '/./assets/images/entrada.jpg',
         thumbnailImageSrc: '/./assets/images/entrada.jpg',
         alt: 'Entrada y despacho',
-        title: 'EntEntrada y despacho',
+        title: 'Entrada y despacho',
       },
       {
         previewImageSrc: '/./assets/images/interior_area_lenguaje_cultura_matemtaicas.jpg',
@@ -84,10 +84,10 @@ export class PhotoService {
   getImagesSensorial() {
     return [
       {
-        previewImageSrc: '/./assets/images/sensorial2.jpg',
+        previewImageSrc: '/./assets/images/sensorial22.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/sensorial3.jpg',
+        previewImageSrc: '/./assets/images/sensorial33.jpg',
       },
       {
         previewImageSrc: '/./assets/images/sensorial4.jpg',
@@ -98,7 +98,7 @@ export class PhotoService {
 
       },
       {
-        previewImageSrc: '/./assets/images/sensorial6.jpg',
+        previewImageSrc: '/./assets/images/sensorial66.jpeg',
 
       },
       
@@ -116,7 +116,7 @@ export class PhotoService {
         previewImageSrc: '/./assets/images/mate4.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/mate5.jpg',
+        previewImageSrc: '/./assets/images/mate55.jpg',
       },
       {
         previewImageSrc: '/./assets/images/mate6.jpg',
