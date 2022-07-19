@@ -12,38 +12,38 @@ export class PhotoService {
       {
         previewImageSrc: '/./assets/images/fachadaprincipal.jpg',
         thumbnailImageSrc: '/./assets/images/fachadaprincipal.jpg',
-        alt: 'Fachada',
-        title: 'Fachada',
+        alt: 'Fachada principal',
+        title: 'Fachada principal',
       },
       {
         previewImageSrc: '/./assets/images/entrada.jpg',
         thumbnailImageSrc: '/./assets/images/entrada.jpg',
-        alt: 'Entrada',
-        title: 'Entrada',
+        alt: 'Entrada y despacho',
+        title: 'EntEntrada y despacho',
       },
       {
         previewImageSrc: '/./assets/images/interior_area_lenguaje_cultura_matemtaicas.jpg',
         thumbnailImageSrc: '/./assets/images/interior_area_lenguaje_cultura_matemtaicas.jpg',
-        alt: 'Interior area de lenguaje, cultura y matematicas',
-        title: 'Interior area de lenguaje, cultura y matematicas',
+        alt: 'Interior: área de lenguaje, cultura y matemáticas',
+        title: 'Interior: área de lenguaje, cultura y matemáticas',
       },
       {
         previewImageSrc: '/./assets/images/interior_area_lenguaje_vida_practica.jpg',
         thumbnailImageSrc: '/./assets/images/interior_area_lenguaje_vida_practica.jpg',
-        alt: 'Interior area de lenguaje y vida practica',
-        title: 'Interior area de lenguaje y vida practica',
+        alt: 'Interior: área de lenguaje y vida practica',
+        title: 'Interior: área de lenguaje y vida practica ',
       },
       {
         previewImageSrc: '/./assets/images/interior_area_sensoria_despacho.jpg',
         thumbnailImageSrc: '/./assets/images/interior_area_sensoria_despacho.jpg',
-        alt: 'Interior area sensorial y despacho',
-        title: 'Interior area sensorial y despacho',
+        alt: 'Interior: área sensorial ',
+        title: 'Interior: área sensorial ',
       },
       {
         previewImageSrc: '/./assets/images/mueble_areas_conocimiento.png',
         thumbnailImageSrc: '/./assets/images/mueble_areas_conocimiento.png',
-        alt: 'Mueble de areas de conocimiento',
-        title: 'Mueble de areas de conocimiento',
+        alt: 'Mueble de áreas de conocimiento: matemáticas, lenguaje y vida práctica',
+        title: 'Mueble de áreas de conocimiento: matemáticas, lenguaje y vida práctica',
       },
       {
         previewImageSrc: '/./assets/images/zona_de_dormir.jpg',
@@ -84,10 +84,22 @@ export class PhotoService {
   getImagesSensorial() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractic4.jpg',
+        previewImageSrc: '/./assets/images/sensorial2.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractic5.jpg',
+        previewImageSrc: '/./assets/images/sensorial3.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/sensorial4.jpg',
+
+      },
+      {
+        previewImageSrc: '/./assets/images/sensorial5.jpg',
+
+      },
+      {
+        previewImageSrc: '/./assets/images/sensorial6.jpg',
+
       },
       
     ];
@@ -95,10 +107,19 @@ export class PhotoService {
   getImagesVidaMatematicas() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractic2.jpg',
+        previewImageSrc: '/./assets/images/mate2.JPG',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractic3.jpg',
+        previewImageSrc: '/./assets/images/mate3.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/mate4.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/mate5.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/mate6.jpg',
       },
       
     ];
@@ -106,10 +127,19 @@ export class PhotoService {
   getImagesVidaLenguaje() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractic5.jpg',
+        previewImageSrc: '/./assets/images/lenguaje2.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractic6.jpg',
+        previewImageSrc: '/./assets/images/lenguaje3.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/lenguaje4.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/lenguaje5.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/lenguaje6.png',
       },
       
     ];
@@ -117,10 +147,19 @@ export class PhotoService {
   getImagesVidaCultura() {
     return [
       {
-        previewImageSrc: '/./assets/images/vidapractic2.jpg',
+        previewImageSrc: '/./assets/images/cultura2.jpg',
       },
       {
-        previewImageSrc: '/./assets/images/vidapractic4.jpg',
+        previewImageSrc: '/./assets/images/cultura3.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/cultura4.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/cultura5.jpg',
+      },
+      {
+        previewImageSrc: '/./assets/images/cultura6.jpg',
       },
       
     ];
