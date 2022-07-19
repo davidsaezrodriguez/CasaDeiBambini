@@ -16,27 +16,30 @@
 <div class="container">
     <div class="row mt-5">
         <h2 class="col-md-12 col-12" >Vida práctica<img src='/./assets/images/vidapractic1.jpg' style="width:3em"></h2> 
-        <div class="col-md-5 col-12">
-            <p>Está enfocada a que el niño actúe autónomamente, desarrollando de esta manera su independencia y su autoestima..<br>
-                <strong>1.Cuidado personal:</strong> calzarse y descalzarse, elegir su propia ropa, abrochar prendas, higiene personal… <br>
-                <strong>2.Cuidado del medio ambiente y los espacios:</strong> limpieza del espacio, cuidado de jardinería y plantas, contribución en las tareas de cocina, respeto y cuidado de mascotas y animales… <br>
-                <strong>3.Gracia y cortesía:</strong> saludos, modales, interacciones sociales, cortesía en la mesa, aprender a pedir ayuda, respetar los turnos…<br>
-                <strong>4.Control del movimiento y adquisición de concentración:</strong> verter líquidos, desplazamiento de objetos, bajar y subir escaleras y estimulación de la concentración mediante ejercicios como caminar sobre una línea, desplazarse en silencio… </p>
+        <div class="row m-0 p-0">
+            <div class="col-md-5 col-12">
+                <p>Está enfocada a que el niño actúe autónomamente, desarrollando de esta manera su independencia y su autoestima..<br>
+                    <strong>1.Cuidado personal:</strong> calzarse y descalzarse, elegir su propia ropa, abrochar prendas, higiene personal… <br>
+                    <strong>2.Cuidado del medio ambiente y los espacios:</strong> limpieza del espacio, cuidado de jardinería y plantas, contribución en las tareas de cocina, respeto y cuidado de mascotas y animales… <br>
+                    <strong>3.Gracia y cortesía:</strong> saludos, modales, interacciones sociales, cortesía en la mesa, aprender a pedir ayuda, respetar los turnos…<br>
+                    <strong>4.Control del movimiento y adquisición de concentración:</strong> verter líquidos, desplazamiento de objetos, bajar y subir escaleras y estimulación de la concentración mediante ejercicios como caminar sobre una línea, desplazarse en silencio… </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 col-12 imagenMovil">
+                <p-galleria [value]="imagesVidaPractica" [responsiveOptions]="responsiveOptions" [autoPlay]=true
+                    [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
+                     [circular]=true [showThumbnails]=false >
+                    <ng-template pTemplate="item" let-item>
+                        <img [src]="item.previewImageSrc" class="imagenesMetodologia" />
+                    </ng-template>
+                </p-galleria>
+            </div>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5 col-12 imagenMovil">
-            <p-galleria [value]="imagesVidaPractica" [responsiveOptions]="responsiveOptions" [autoPlay]=true
-                [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
-                 [circular]=true [showThumbnails]=false >
-                <ng-template pTemplate="item" let-item>
-                    <img [src]="item.previewImageSrc" class="imagenesMetodologia" />
-                </ng-template>
-            </p-galleria>
-        </div>
+        
     </div>
     <div class="row mt-5 ">
         <h2 class="col-md-12 col-12" >Sensorial <img src='/./assets/images/sensorial1.jpg' style="width:3em"></h2>
-        <div class="columnReverse row">
+        <div class="columnReverse row m-0 p-0">
             <div class="col-md-5 col-12 imagenMovil">
                 <p-galleria [value]="imagesSensorial" [responsiveOptions]="responsiveOptions" [autoPlay]=true
                     [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
@@ -63,29 +66,32 @@
     </div>
     <div class="row mt-5">
         <h2 class="col-md-12 col-12" >Matemáticas<img src='/./assets/images/matematicas1.jpg' style="width:3em"></h2>
-        <div class="col-md-5 col-12">
+        <div class="row m-0 p-0">
+            <div class="col-md-5 col-12">
             
-            <p>La base de las matemáticas permite desarrollar al niño sus habilidades y cualidades de lógica, orden, secuencia y extrapolación. Para ello, se utilizan materiales con carácter autocorrector que consisten en la apreciación del error determinado por el propio material para que el niño adquiera la evidencia del suceso. El deseo del niño de alcanzar un fin que le es bien conocido le impulsa a corregirse a sí mismo. Es un trabajo del material y de la propia inteligencia del niño lo que le lleva al resultado. Las herramientas aplicadas en el área de matemáticas pueden calificarse por su finalidad en el aprendizaje en: <br>
+                <p>La base de las matemáticas permite desarrollar al niño sus habilidades y cualidades de lógica, orden, secuencia y extrapolación. Para ello, se utilizan materiales con carácter autocorrector que consisten en la apreciación del error determinado por el propio material para que el niño adquiera la evidencia del suceso. El deseo del niño de alcanzar un fin que le es bien conocido le impulsa a corregirse a sí mismo. Es un trabajo del material y de la propia inteligencia del niño lo que le lleva al resultado. Las herramientas aplicadas en el área de matemáticas pueden calificarse por su finalidad en el aprendizaje en: <br>
+    
+                    <strong>1.Geometría:</strong> solidos geométricos de madera, formas geométricas...<br>
+                    <strong>2.Formas y tamaños:</strong> torre, juego de cilindros, resaques metálicos... <br>
+                    <strong>3.Introducción a los números:</strong> ábaco, barras rojas y azules, números lija…<br>
+                    <strong>4.Sistema decimal:</strong> escalera y tiras de perlas, caja de huso de madera… </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 col-12 imagenMovil">
+                <p-galleria [value]="imagesMatematicas" [responsiveOptions]="responsiveOptions" [autoPlay]=true
+                    [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
+                     [circular]=true [showThumbnails]=false >
+                    <ng-template pTemplate="item" let-item>
+                        <img [src]="item.previewImageSrc"class="imagenesMetodologia"  />
+                    </ng-template>
+                </p-galleria>
+            </div>
+        </div>
 
-                <strong>1.Geometría:</strong> solidos geométricos de madera, formas geométricas...<br>
-                <strong>2.Formas y tamaños:</strong> torre, juego de cilindros, resaques metálicos... <br>
-                <strong>3.Introducción a los números:</strong> ábaco, barras rojas y azules, números lija…<br>
-                <strong>4.Sistema decimal:</strong> escalera y tiras de perlas, caja de huso de madera… </p>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5 col-12 imagenMovil">
-            <p-galleria [value]="imagesMatematicas" [responsiveOptions]="responsiveOptions" [autoPlay]=true
-                [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
-                 [circular]=true [showThumbnails]=false >
-                <ng-template pTemplate="item" let-item>
-                    <img [src]="item.previewImageSrc"class="imagenesMetodologia"  />
-                </ng-template>
-            </p-galleria>
-        </div>
     </div>
     <div class="row mt-5 ">
         <h2 class="col-md-12 col-12" >Lenguaje<img src='/./assets/images/lenguaje1.jpg' style="width:3em"></h2>
-        <div class="columnReverse row">
+        <div class="columnReverse row m-0 p-0">
             <div class="col-md-5 col-12 imagenMovil">
                 <p-galleria [value]="imagesLenguaje" [responsiveOptions]="responsiveOptions" [autoPlay]=true
                     [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
@@ -111,27 +117,30 @@
     </div>
     <div class="row mt-5">
         <h2 class="col-md-12 col-12" >Cultura <img src='/./assets/images/cultura1.jpg' style="width:3em"></h2>
-        <div class="col-md-5 col-12">
+        <div class="row m-0 p-0">
+            <div class="col-md-5 col-12">
             
-            <p>Su objetivo es agudizar los poderes de observación en los niños y comprender el mundo que los rodea. El área cultural se compone de:<br>
-
-                <strong>1.Geografía:</strong> permite comprender su propia cultura y las que hay en el resto del mundo. <br>
-                <strong>2.Botánica:</strong> aprenden sobre ecología, fisiología de las plantas, su clasificación, las consecuencias y como afecta el cambio climático, la sostenibilidad, etc…<br>
-                <strong>3.Historia:</strong> consiste en comprender el tiempo histórico pasado y actual mediante líneas del tiempo y calendarios.<br>
-                <strong>4.Zoología:</strong> aprenden a clasificar los animales, conocen su fisiología, sus características, dónde se ubican en el mapa terrestre, etc... <br>
-                <strong>5.Ciencia:</strong> trabajan con experimentos prácticos y aprenden la constitución del cuerpo humano.<br>
-                <strong>6.Arte y música:</strong> su aprendizaje permite desarrollo de las habilidades de expresión, sociales, emocionales y cognitivas. </p>
+                <p>Su objetivo es agudizar los poderes de observación en los niños y comprender el mundo que los rodea. El área cultural se compone de:<br>
+    
+                    <strong>1.Geografía:</strong> permite comprender su propia cultura y las que hay en el resto del mundo. <br>
+                    <strong>2.Botánica:</strong> aprenden sobre ecología, fisiología de las plantas, su clasificación, las consecuencias y como afecta el cambio climático, la sostenibilidad, etc…<br>
+                    <strong>3.Historia:</strong> consiste en comprender el tiempo histórico pasado y actual mediante líneas del tiempo y calendarios.<br>
+                    <strong>4.Zoología:</strong> aprenden a clasificar los animales, conocen su fisiología, sus características, dónde se ubican en el mapa terrestre, etc... <br>
+                    <strong>5.Ciencia:</strong> trabajan con experimentos prácticos y aprenden la constitución del cuerpo humano.<br>
+                    <strong>6.Arte y música:</strong> su aprendizaje permite desarrollo de las habilidades de expresión, sociales, emocionales y cognitivas. </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 col-12 imagenMovil">
+                <p-galleria [value]="imagesCultura" [responsiveOptions]="responsiveOptions" [autoPlay]=true
+                    [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
+                     [circular]=true [showThumbnails]=false >
+                    <ng-template pTemplate="item" let-item>
+                        <img [src]="item.previewImageSrc" class="imagenesMetodologia"  />
+                    </ng-template>
+                </p-galleria>
+            </div>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5 col-12 imagenMovil">
-            <p-galleria [value]="imagesCultura" [responsiveOptions]="responsiveOptions" [autoPlay]=true
-                [transitionInterval]="3000" [containerStyle]="{'max-width': '75em','margin':'0 auto 0 auto'}"
-                 [circular]=true [showThumbnails]=false >
-                <ng-template pTemplate="item" let-item>
-                    <img [src]="item.previewImageSrc" class="imagenesMetodologia"  />
-                </ng-template>
-            </p-galleria>
-        </div>
+        
     </div>
     <div>
         <p>
